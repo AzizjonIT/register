@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conteiner{
+    width: 800px;
+    margin: auto;
+}
+
+.regis{
+    margin-top: 20px;
+}
+.card{
+    padding: 50px;
+    margin-top: 20px;
+  
+    background-color: rgb(80, 187, 229);
+}
+.h1{
+    text-align: center;
+}
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.input{
+    width: 700px;
+    height: 40px;
+    padding: 10px;
+}
+.inputt{
+    width: 700px;
+    height: 40px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.gander{
+    display: flex;
+    margin-top: 10px;
+}
+.input_gander{
+    padding-left: 20px;
+}
+.textarea{
+    padding: 10px;
+    width: 700px;
+}
+.button{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 700px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    font-weight: 900;
+    color: aliceblue;
+    background-color: rgb(20, 181, 90);
+}
+@media only screen and (max-width:420px) {
+   
+    .conteiner{
+        width: 420px;
+        margin: auto;
+    }
+    .button{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        width: 360px;
+        height: 40px;
+        padding: 10px;
+        border: none;
+        font-weight: 900;
+        color: aliceblue;
+        background-color: rgb(20, 181, 90);
+    }
+    .inputt{
+        width: 360px;
+        height: 40px;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .input{
+        width: 360px;
+        height: 40px;
+        padding: 10px;
+    }
+    .textarea{
+        padding: 10px;
+        width: 360px;
+    }
+    .card{
+        padding: 30px;
+        margin-top: 20px;
+       
+        background-color: rgb(80, 187, 229);
+    }
+}
+
+@media only screen and (max-width:370px) {
+   
+    .conteiner{
+        width: 370px;
+        margin: auto;
+    }
+    .button{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        width: 320px;
+        height: 30px;
+        padding: 10px;
+        border: none;
+        font-weight: 900;
+        color: aliceblue;
+        background-color: rgb(20, 181, 90);
+    }
+    .inputt{
+        width: 320px;
+        height: 30px;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .input{
+        width: 320px;
+        height: 30px;
+        padding: 10px;
+    }
+    .textarea{
+        padding: 10px;
+        width: 320px;
+    }
+    .card{
+        padding: 30px;
+        margin-top: 20px;
+       
+        background-color: rgb(80, 187, 229);
+    }
+}
+
+@media only screen and (max-width:350px) {
+   
+    .conteiner{
+        width: 350px;
+        margin: auto;
+    }
+    .button{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        width: 300px;
+        height: 30px;
+        padding: 5px;
+        border: none;
+        font-weight: 900;
+        color: aliceblue;
+        background-color: rgb(20, 181, 90);
+    }
+    .inputt{
+        width: 300px;
+        height: 30px;
+        padding: 5px;
+        margin-top: 20px;
+    }
+    .input{
+        width: 300px;
+        height: 30px;
+        padding: 5px;
+    }
+    .textarea{
+        padding: 10px;
+        width: 300px;
+    }
+    .card{
+        padding: 30px;
+        margin-top: 20px;
+       
+        background-color: rgb(80, 187, 229);
+    }
+}
